@@ -11,7 +11,7 @@ var validImage = function(url){
     s.onerror = function(){
         //if url is not valid then we assign default url string to vaildURL and return
         validURL = 'This is where default url string goes';
-  	    return validURL;
+  	   return validURL;
     }
     s.onload = function(){
         //if url is valid then we set validURL to url and return 
