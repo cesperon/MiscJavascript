@@ -16,7 +16,7 @@ function fastestRoute(pA, pB, pC) {
       origin: pA,
       destination: pB,
       travelMode: google.maps.TravelMode.DRIVING,
-      waypoints[]: waypts,
+      waypoints: waypts,
       avoidHighways: true,
     };
     new google.maps.DirectionsService().route(request, function(response, status) {
